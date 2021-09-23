@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(182, 181, 180);
+    height: 750;
+    align-items: center;
+    width: 100%;
+}
+.box{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 0 10px whitesmoke;
+    height: 270px;
+    width: 1050px;
+    margin-top: 15px;
+  
+}
+.place_name{
+    font-weight: 50px;
+    font-family: Arial, Helvetica, sans-serif  ;
+    font-size: 37px;
+    width: 323px;
+    display: inline-block;
+
+}
+.written_content{
+    margin-top: 0px;
+    margin-left: 34px;
+    padding: 5px;
+    display: inline-block;
+    width: 300px;
+}
+
+.rating_section{
+    display: inline-block;
+    width: 350px;
+    padding: 5px;
+    margin: 2px;
+}
+.checked {
+    color: white;
+  }
+  
+._checked{
+      color: rgb(248, 171, 6);
+  }
+  
+.fa-star:before {
+    content: "\f005";
+    padding: 3px;
+}
+::after, ::before {
+    box-sizing: border-box;
+    padding: 2px;
+
+
+}
+
+.rating_number{
+    padding: 3px;
+    margin: 4px ;
+}
+.rating{
+    background-color: rgb(248, 171, 6);
+    padding: 2px;
+  }
+
+.image_style{
+    height: 250px;
+    width: 410px;
+    border-radius: 10px;
+}
+.votes_count{
+    padding: 10px;
+    padding-left: 15px;
+    color: blue;
+}
+.contact{
+    display: inline-block;
+    width: 350px;
+    padding: 2px;
+    margin: 2px;
+    margin-left: 5px;
+    
+}
+.phone{
+    height: 18px;
+    width: 18px;
+    border: white;
+}
+.contact_details{
+    padding-left: 10px;
+}
+.location{
+    display: inline-block;
+    width: 350px;
+    padding: 3px;
+    margin: 2px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.board_location{
+    height: 32px;
+    width: 45px;
+    margin: 0px;
+    padding: 0px;
+}
+.arrow_image{
+    height: 16px;
+    width: 17px;
+}
+.services_section{
+    margin: 1px;
+    padding: 0px;
+    margin-left: 16px;
+}
+.services{
+    margin-left: 15px;
+}
+.price_status{
+    margin: 2px;
+    margin-left: 16px;
+    margin-top: 15px;
+}
+.rupee{
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    color: grey;
+    margin-left: 7px;
+}
+
+
+.mini_box{
+   padding: 5px;
+    margin: 5px;
+    background-color: white;
+    height: 48px;
+    width: 1050px;
+}
+.left{
+    width: 2px;
+    padding: 4px;
+    font-weight: 400;
+    font-size: 19px;
+    margin-left: 23px;
+}
+
+._right{
+    margin-left: 268px;
+    display: inline-block;
+    width: 380px;
+    }
+
+.price_tag{
+      height:22px;
+      width: 27px;
+    }
+._rupee{
+    height: 18px;
+    width: 18px;
+}
+.rupee_rating{
+    height: 22px;
+    width:27px;
+    background-color: white;
+}
+.distance_logo{
+    height: 30px;
+    width: 23px;
+    margin-left: 62px;
+}
+._distance{
+    margin-right: 7px;
+}
+.kilometers{
+    margin-right: 10px;
+}
+
+.buttons{
+    display: inline-block;
+    
+    width: 250px;
+    height: 75px;
+    margin-left: 25px ;
+}
+._button{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    text-shadow: 0 0 20px black;
+    
+}
